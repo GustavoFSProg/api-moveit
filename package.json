@@ -4,7 +4,7 @@
   "main": "index.ts",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev  --transpile-only src/index.ts",
+    "dev": "ts-node-dev src/index.ts",
     "lint": "eslint src/**/*.ts",
     "start": "NODE_ENV=production node dist",
     "build": "babel src/index.ts -d dist"
