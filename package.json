@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "tsnd src/index.ts",
     "lint": "eslint src/**/*.ts",
-    "start": "node dist",
-    "build": "babel ./src src/index.ts -d dist"
+    "start": "NODE_ENV=production node dist",
+    "build": "babel src/index.ts -d dist"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
